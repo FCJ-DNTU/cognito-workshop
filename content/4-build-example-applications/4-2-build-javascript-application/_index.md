@@ -1,5 +1,5 @@
 +++
-title = "4.2. Xây dựng dự án Javascript"
+title = "4.2. Build Javascript application"
 date = 2025
 weight = 2
 chapter = false
