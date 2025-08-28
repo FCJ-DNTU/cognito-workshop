@@ -17,7 +17,7 @@ Thử tưởng tượng nếu như bạn có một ứng dụng và giờ bạn 
 
 ### Nội dung
 
-Trong bài thực hành này, chúng ta sẽ tìm hiểu về Cognito trước để đảm bảo là chúng ta hiểu được cơ bản về dịch vụ này, sau đó sẽ lấy những kiến thức đã có để áp dụng vào bài thực hành. Trước khi có thể thực hành với Cognito, thì chúng ta sẽ cần phải xây dựng một ứng dụng mẫu, có chức năng cơ bản để có thể demo được. Với ứng dụng này thì mình sẽ build nó ở 3 ngôn ngữ khác nhau (mình sẽ giải thích rõ hơn trong phần 4. Xây dựng các dự án mẫu), bao gồm **Javascript**, **Python** và **Java**, bạn có thể chọn ngôn ngữ mà mình thích để thực hành.
+Trong bài thực hành này, chúng ta sẽ tìm hiểu về Cognito trước để đảm bảo là chúng ta hiểu được cơ bản về dịch vụ này, sau đó sẽ lấy những kiến thức đã có để áp dụng vào bài thực hành. Trước khi có thể thực hành với Cognito, thì chúng ta sẽ cần phải xây dựng một ứng dụng mẫu, có chức năng cơ bản để có thể demo được. Với ứng dụng này thì mình sẽ build nó ở 2 ngôn ngữ khác nhau (mình sẽ giải thích rõ hơn trong phần 4. Xây dựng các dự án mẫu), bao gồm **Javascript** và **Python**, bạn có thể chọn ngôn ngữ mà mình thích để thực hành.
 
 Sau khi hoàn thành việc xây dựng một ứng dụng nhỏ, thì chúng ta sẽ tiến hành thử nghiệm kết quả khi đã tích hợp với Cognito. Cuối cùng, sau khi kiếm tra kết quả xong, chúng ta sẽ viết tiếp mã nguồn để tiển khai module này với công nghệ server, bằng Lambda và tích hợp với API Gateway.
 
@@ -25,11 +25,11 @@ Sau khi hoàn thành việc xây dựng một ứng dụng nhỏ, thì chúng ta
 
 ![architecture](/images/architecture.png)
 
-Chúng ta sẽ có 2 người dùng thuộc hai nhóm (team) người dùng khác nhau là Marketing và Sales. Với mỗi yêu cầu được gửi từ những người dùng này, thì hệ thống sẽ kiểm tra định danh và phần quyền chức năng cho 2 nhóm người dùng này dựa trên những gì mà chúng ta sẽ khai báo.
+Chúng ta sẽ có 2 người dùng thuộc hai nhóm (team) người dùng khác nhau là **Marketing** và **Sales**. Với mỗi yêu cầu được gửi từ những người dùng này, thì hệ thống sẽ kiểm tra định danh và phần quyền chức năng cho 2 nhóm người dùng này dựa trên những gì mà chúng ta sẽ khai báo.
 
 Vậy thì sau bài thực hành này thì chúng ta sẽ biết thêm được gì?
 
-- Cách setup một ngôn ngữ để triển khai với AWS SDK.
+- Cách setup một dự án với Typescript hoặc Python và thích hợp AWS SDK..
 - Cách sử dụng AWS CLI.
 - Triển khai một chức năng với AWS Lambda.
 - Tích hợp API Server với API Gateway cũng như là Lambda Function.
